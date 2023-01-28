@@ -8,7 +8,6 @@ services:
 # Pre-testing installs
 install:
   - echo $FAVORITE_FOOD
-  - echo "with quotes: $FAVORITE_FOOD"
 
 # Scripts to be run such as tests
 before_script:
