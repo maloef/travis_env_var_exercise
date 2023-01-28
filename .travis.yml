@@ -21,4 +21,4 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push maloef/travis-env-var 
+  - docker push maloef/travis-env-var
