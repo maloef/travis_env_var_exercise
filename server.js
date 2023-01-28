@@ -4,8 +4,9 @@ function sleep(ms) {
 }
 
 async function main() {
+  const FAVORITE_FOOD = prcess.env.FAVORITE_FOOD
   while(true) {
-    console.log("Microservices rock!");
+    console.log("My favorite food: ", FAVORITE_FOOD);
     await sleep(5000);
   }
 }
